@@ -1,0 +1,24 @@
+.menu {
+    background: green;
+    min-height: 30px;
+    margin: 0 auto;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.menu-item > a {
+    padding: 10px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
